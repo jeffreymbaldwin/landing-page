@@ -1,12 +1,21 @@
-.header {
+.hero {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #1F2937;
+    flex-direction: column;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headtext {
+    display: flex;
+    justify-content: space-between;
+}
 ul {
     display: flex;
+    gap: 16px;
     list-style-type: none;
-    gap: 8px;
+    
 }
