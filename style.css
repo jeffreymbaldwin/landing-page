@@ -5,18 +5,24 @@ body {
     padding: 0;
 }
 
-.header-container {
+.header-container,
+.hero-container {
     display: flex;
     justify-content: center;
     background-color: #1F2937;
     margin: 0;
+    padding-bottom: 85px;
 }
 
-.header {
+.header,
+.hero {
     width: 1200px;
     display: flex;
     align-items: center;
     justify-content: space-around; 
+}
+.hero {
+    width: 900px;
 }
 
 ul {
@@ -34,4 +40,37 @@ ul {
 .header-links {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero-left {
+    width: 400px;
+}
+
+.hero-awesome {
+    font-size: 48px;
+    font-weight: 900;
+    color:#F9FAF8;
+}
+
+.hero-info,
+.hero-image {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.hero-info {
+    margin-bottom: 8px;
+}
+
+.hero-image {
+    background-color: grey;
+    padding: 100px;
+}
+
+.hero-button {
+  color:#F9FAF8;
+  background-color: #3882F6;
+  border-radius: 6px;
+  border: 0px;
+  padding: 8px 16px;
 }
